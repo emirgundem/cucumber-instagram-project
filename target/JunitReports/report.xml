@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.199">
+<testcase classname="Instagram login functionality test" name="Check the ınstagram login page" time="7.858">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters emirgundem and emiremir34..................................failed
+And user clicks on login....................................................skipped
+Then user is navigated to the home page.....................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefiniton.LoginSteps.user_enters_username_and_password(LoginSteps.java:39)
+	at ✽.user enters emirgundem and emiremir34(file:///C:/Users/Lenovo/IdeaProjects/cucumber-instagram-project/src/test/java/Features/ınstagramLogin.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
