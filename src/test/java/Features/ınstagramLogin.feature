@@ -1,5 +1,7 @@
 Feature: Instagram login functionality test
 
+
+  @smoke
   Scenario Outline: Check the ınstagram login page
 
     Given browser is open
@@ -10,6 +12,9 @@ Feature: Instagram login functionality test
     Examples:
       |username  | password|
     |testUser |testPassword|
+
+
+
 
 
 

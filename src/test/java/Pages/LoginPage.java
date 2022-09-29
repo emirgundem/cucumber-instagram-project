@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
     WebDriver driver;
-
     private By ınputUsername = By.xpath("//input[@name='username']");
     private By ınputPassword = By.xpath("//input[@name='password']");
     private By loginButton = By.xpath("//button[contains(@type,'submit')]//div[1]");
@@ -25,4 +24,7 @@ public class LoginPage {
     public void clickLoginButton() {
         driver.findElement(loginButton).click();
     }
+
+
+
 }

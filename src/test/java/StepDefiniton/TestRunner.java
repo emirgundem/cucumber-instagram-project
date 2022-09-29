@@ -9,8 +9,12 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/java/Features",glue = {"StepDefiniton"},monochrome = true,
         plugin = {"pretty","html:target/HtmlReports/report.html",
                   "pretty","json:target/JsonReports/report.json",
-                  "pretty", "junit:target/JunitReports/report.xml"
-                 })
+                  "pretty", "junit:target/JunitReports/report.xml"},
+
+        tags = "@smoke"
+)
+
 public class TestRunner {
+
 
 }
